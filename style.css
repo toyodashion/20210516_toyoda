@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Shippori Mincho", serif;
+  margin: 0 auto;
+  color: black;
+  font-size: 40px;
+}
+
+main {
+  height: 100%;
+  width: 1300px;
+}
+
+header {
+  height: 70px;
+  width: 1300px;
+}
+
+.lightblue_40px_amaticSC {
+  font-family: "Amatic SC", cursive;
+  color: #55bbbb;
+  text-align: right;
+}
+
+.firstview {
+  position: relative;
+}
+
+.firstview img {
+  width: 1300px;
+}
+
+.firstview__text {
+  position: absolute;
+  top: 0%;
+}
+
+.lightblue_64px {
+  font-size: 64px;
+  color: #55bbbb;
+}
+
+.special {
+  display: flex;
+  position: relative;
+}
+
+.special_now {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  line-height: 100px;
+  background-color: #ff4384;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  margin: 60px auto 40px 0;
+}
+
+.special_price {
+  margin-top: 70px;
+  position: absolute;
+  top: auto;
+  left: 120px;
+}
+
+.special_price .lightblue_16px {
+  font-size: 16px;
+  color: #55bbbb;
+}
+
+.special_price .pink_25px {
+  font-size: 25px;
+  color: #ff4384;
+}
+
+.special_price .pink_40px {
+  font-size: 40px;
+  color: #ff4384;
+}
+
+.free {
+  background-color: #ff4384;
+  color: white;
+  font-size: 25px;
+  padding: 30px 40px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 7px 2px #ff4384;
+}
+
+.secondview h2 {
+  width: 1300px;
+  background-color: #55bbbb;
+  color: white;
+  height: 105px;
+  line-height: 105px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: -12px;
+  position: relative;
+}
+
+.secondview h2 .white_40px {
+  color: white;
+}
+
+.secondview h2::after {
+  content: "";
+  position: absolute;
+  left: 48%;
+  top: 100%;
+  border: 40px solid transparent;
+  border-top: #55bbbb 40px solid;
+}
+
+.secondview__content {
+  width: 740px;
+  display: flex;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.secondview__content ul {
+  border: #55bbbb solid 1px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  width: 460px;
+}
+
+.secondview__content ul li {
+  list-style: none;
+  font-size: 25px;
+  border-bottom: #55bbbb 1px solid;
+  color: #55bbbb;
+  padding-top: 30px;
+  padding-left: 50px;
+  position: relative;
+}
+
+.secondview__content ul li::before {
+  background: url(img/check.svg) no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  content: "";
+  width: 25px;
+  height: 25px;
+}
+
+.thirdview h2 {
+  background-color: #55bbbb;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  line-height: 65px;
+  font-size: 25px;
+}
+
+.thirdview h2 .white_40px_amaticSC {
+  color: white;
+  font-family: "Amatic SC", cursive;
+}
+
+.thirdview h2 .white_40px {
+  color: white;
+}
+
+.thirdview h2 .pink_40px {
+  color: #ff4384;
+}
+
+.thirdview__point {
+  display: flex;
+}
+
+.thirdview__point--card {
+  border-left: #55bbbb 1px solid;
+  border-right: #55bbbb 1px solid;
+  border-bottom: #55bbbb 1px solid;
+  border-top: #55bbbb 1px solid;
+  padding: 35px 10px 10px 10px;
+  width: 300px;
+  margin-top: 45px;
+  position: relative;
+}
+
+.thirdview__point--card .point {
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+  color: #55bbbb;
+  position: absolute;
+  top: -16px;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.thirdview__point--card h3 {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.thirdview__point--card h3 .pink_25px {
+  color: #ff4384;
+  font-size: 25px;
+}
+
+.thirdview__point--card p {
+  font-size: 16px;
+  padding-top: 35px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 88px;
+  padding-bottom: 28px;
+}
+
+footer small {
+  font-size: 12px;
+}
